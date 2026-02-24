@@ -1,7 +1,6 @@
 #!/bin/sh
 set -xe
-pkill app &
 
-gcc -O3 -g ~/Projects/app-hr/src/app.c -o ~/Projects/app-hr/bin/app
+gcc -O3 -g ./src/app.c -o ./bin/app
 
-/home/hussain/Projects/app-hr/bin/app
+./bin/app
